@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c003e; /* Dark purple */
+    color: #ffb6c1; /* Light pink text */
+    text-align: center;
+}
+
+.chat-container {
+    width: 300px;
+    margin: 50px auto;
+    background: #660066; /* Deep purple */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 105, 180, 0.3); /* Pink glow */
+    border-radius: 10px;
+}
+
+#chat-box {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ff69b4; /* Pink border */
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #4b0049; /* Darker purple */
+    color: #ffb6c1; /* Light pink text */
+}
+
+input {
+    width: 70%;
+    padding: 8px;
+    background: #5a005a; /* Dark purple */
+    color: #ffb6c1; /* Light pink text */
+    border: 1px solid #ff69b4; /* Pink border */
+}
+
+button {
+    padding: 8px 12px;
+    background: #ff1493; /* Deep pink */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #ff69b4; /* Lighter pink */
+}
